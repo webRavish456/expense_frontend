@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { FaEdit, FaTrash } from "react-icons/fa";
 
-const API_URL = "https://expense-backend-warc.onrender.com";
+const API_URL = "http://35.72.6.189:8000";
 
 const App = () => {
   const [expenses, setExpenses] = useState([]);
